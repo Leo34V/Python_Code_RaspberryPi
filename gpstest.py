@@ -21,7 +21,7 @@ while True:
     if current - last_print ›= 1.0:
         last_print = current
         if not gps.has_fix:
-            print (Waiting for fix.... ")
+            print ("Waiting for fix.... ")
             continue
         print("=" * 40)  # Print a separator line.
         print(
